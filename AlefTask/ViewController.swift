@@ -162,6 +162,11 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     
     func updateChildrenCount() {
         childrenCountLabel.text = "(\(childrenData.count)/5)"
+        if childrenData.count == 5 {
+            addButton.tintColor = .gray
+        } else {
+            addButton.tintColor = .systemBlue
+        }
         saveChildren()
     }
     
