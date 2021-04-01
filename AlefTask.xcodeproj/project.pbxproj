@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6035D92FFC0C7809149270EF /* Pods_AlefTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 059652B4FDD6E5A3F6155C88 /* Pods_AlefTask.framework */; };
+		B36B51DD26148F7F00ED2A2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36B51DC26148F7F00ED2A2C /* AppDelegate.swift */; };
+		B36B51DF26148F7F00ED2A2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36B51DE26148F7F00ED2A2C /* SceneDelegate.swift */; };
+		B36B51E126148F7F00ED2A2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36B51E026148F7F00ED2A2C /* ViewController.swift */; };
+		B36B51E426148F7F00ED2A2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36B51E226148F7F00ED2A2C /* Main.storyboard */; };
+		B36B51E626148F8200ED2A2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36B51E526148F8200ED2A2C /* Assets.xcassets */; };
+		B36B51E926148F8200ED2A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36B51E726148F8200ED2A2C /* LaunchScreen.storyboard */; };
+		B37B500B2615867400821127 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37B500A2615867400821127 /* InputViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		059652B4FDD6E5A3F6155C88 /* Pods_AlefTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlefTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36B51D926148F7F00ED2A2C /* AlefTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlefTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36B51DC26148F7F00ED2A2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B36B51DE26148F7F00ED2A2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B36B51E026148F7F00ED2A2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36B51E326148F7F00ED2A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36B51E526148F8200ED2A2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B36B51E826148F8200ED2A2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B36B51EA26148F8200ED2A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37B500A2615867400821127 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		C15EB265C37F4D983E90F016 /* Pods-AlefTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlefTask.release.xcconfig"; path = "Target Support Files/Pods-AlefTask/Pods-AlefTask.release.xcconfig"; sourceTree = "<group>"; };
+		DC5EB01B9533C9278D595601 /* Pods-AlefTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlefTask.debug.xcconfig"; path = "Target Support Files/Pods-AlefTask/Pods-AlefTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36B51D626148F7F00ED2A2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6035D92FFC0C7809149270EF /* Pods_AlefTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CFFCE9820874F297B1A6273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC5EB01B9533C9278D595601 /* Pods-AlefTask.debug.xcconfig */,
+				C15EB265C37F4D983E90F016 /* Pods-AlefTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B36B51D026148F7F00ED2A2C = {
+			isa = PBXGroup;
+			children = (
+				B36B51DB26148F7F00ED2A2C /* AlefTask */,
+				B36B51DA26148F7F00ED2A2C /* Products */,
+				4CFFCE9820874F297B1A6273 /* Pods */,
+				E3EB3FAB0F8A59CE60CC95DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B36B51DA26148F7F00ED2A2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36B51D926148F7F00ED2A2C /* AlefTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36B51DB26148F7F00ED2A2C /* AlefTask */ = {
+			isa = PBXGroup;
+			children = (
+				B36B51DC26148F7F00ED2A2C /* AppDelegate.swift */,
+				B36B51DE26148F7F00ED2A2C /* SceneDelegate.swift */,
+				B37B500A2615867400821127 /* InputViewController.swift */,
+				B36B51E026148F7F00ED2A2C /* ViewController.swift */,
+				B36B51E226148F7F00ED2A2C /* Main.storyboard */,
+				B36B51E526148F8200ED2A2C /* Assets.xcassets */,
+				B36B51E726148F8200ED2A2C /* LaunchScreen.storyboard */,
+				B36B51EA26148F8200ED2A2C /* Info.plist */,
+			);
+			path = AlefTask;
+			sourceTree = "<group>";
+		};
+		E3EB3FAB0F8A59CE60CC95DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				059652B4FDD6E5A3F6155C88 /* Pods_AlefTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36B51D826148F7F00ED2A2C /* AlefTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36B51ED26148F8200ED2A2C /* Build configuration list for PBXNativeTarget "AlefTask" */;
+			buildPhases = (
+				112E05FB72D37FD883EBC93A /* [CP] Check Pods Manifest.lock */,
+				B36B51D526148F7F00ED2A2C /* Sources */,
+				B36B51D626148F7F00ED2A2C /* Frameworks */,
+				B36B51D726148F7F00ED2A2C /* Resources */,
+				0FF6230E0DD3C93829B477E0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlefTask;
+			productName = AlefTask;
+			productReference = B36B51D926148F7F00ED2A2C /* AlefTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36B51D126148F7F00ED2A2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B36B51D826148F7F00ED2A2C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B36B51D426148F7F00ED2A2C /* Build configuration list for PBXProject "AlefTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36B51D026148F7F00ED2A2C;
+			productRefGroup = B36B51DA26148F7F00ED2A2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36B51D826148F7F00ED2A2C /* AlefTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36B51D726148F7F00ED2A2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B51E926148F8200ED2A2C /* LaunchScreen.storyboard in Resources */,
+				B36B51E626148F8200ED2A2C /* Assets.xcassets in Resources */,
+				B36B51E426148F7F00ED2A2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF6230E0DD3C93829B477E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlefTask/Pods-AlefTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlefTask/Pods-AlefTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlefTask/Pods-AlefTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		112E05FB72D37FD883EBC93A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlefTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36B51D526148F7F00ED2A2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B51E126148F7F00ED2A2C /* ViewController.swift in Sources */,
+				B36B51DD26148F7F00ED2A2C /* AppDelegate.swift in Sources */,
+				B36B51DF26148F7F00ED2A2C /* SceneDelegate.swift in Sources */,
+				B37B500B2615867400821127 /* InputViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B36B51E226148F7F00ED2A2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36B51E326148F7F00ED2A2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36B51E726148F8200ED2A2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36B51E826148F8200ED2A2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36B51EB26148F8200ED2A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B36B51EC26148F8200ED2A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36B51EE26148F8200ED2A2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC5EB01B9533C9278D595601 /* Pods-AlefTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z9V6DRC87;
+				INFOPLIST_FILE = AlefTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sd.AlefTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B36B51EF26148F8200ED2A2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15EB265C37F4D983E90F016 /* Pods-AlefTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z9V6DRC87;
+				INFOPLIST_FILE = AlefTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sd.AlefTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36B51D426148F7F00ED2A2C /* Build configuration list for PBXProject "AlefTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B51EB26148F8200ED2A2C /* Debug */,
+				B36B51EC26148F8200ED2A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36B51ED26148F8200ED2A2C /* Build configuration list for PBXNativeTarget "AlefTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B51EE26148F8200ED2A2C /* Debug */,
+				B36B51EF26148F8200ED2A2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36B51D126148F7F00ED2A2C /* Project object */;
+}
