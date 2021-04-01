@@ -85,7 +85,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         cell.nameLabel?.text = child.name
         cell.surnameLabel?.text = child.surname
         cell.patronymicLabel?.text = child.patronymic
-        cell.ageLabel?.text = String(child.age)
+        cell.ageLabel?.text = ViewController.ages[child.age]
         
         return cell
     }
