@@ -41,6 +41,8 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     override func viewDidLoad() { 
         super.viewDidLoad()
         
+        print("test")
+        
         pickerSetup()
         
         fieldSetup(field: nameField, key: "name")
