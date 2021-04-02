@@ -24,7 +24,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             result += ""
         }
         return result
-    })
+    }) // я леня
 
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var surnameField: UITextField!
