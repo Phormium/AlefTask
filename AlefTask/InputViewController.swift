@@ -27,6 +27,8 @@ class InputViewController: UIViewController, UIPickerViewDelegate, UIPickerViewD
         super.viewDidLoad()
         
         pickerSetup()
+		
+		print("Я тут что-то добавил")
         
         nameField.rx
             .controlEvent([.editingChanged])
